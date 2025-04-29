@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         let currentColor = nameLabel.textColor
 
         // Toggle color: if it's black, change to white; else change to black
-        let newColor: UIColor = (currentColor == UIColor.black) ? .white : .black
+        let newColor: UIColor = (currentColor == UIColor.white) ? .black : .white
 
         nameLabel.textColor = newColor
         collegeLabel.textColor = newColor
